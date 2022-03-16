@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,63 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(/public/images/decfundme2.jpg);
+  /* background-image: url(/public/images/decfundme2.jpg); */
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 4rem;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: left;
+  font-family: "Libre Baskerville", serif;
+  margin: 40px 0px 0px;
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+}
+
+/* centp {
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+  margin: 20px 0px 0px;
+  display: block;
+} */
+
+/* p {
+  color: rgb(148, 165, 197);
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+  margin: 20px 0px 0px;
+  display: block;
+} */

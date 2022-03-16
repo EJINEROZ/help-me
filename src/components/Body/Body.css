@@ -1,0 +1,13 @@
+body {
+  color: aliceblue;
+  text-align: center;
+}
+
+centp {
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+  margin: 20px 0px 0px;
+  display: block;
+}
